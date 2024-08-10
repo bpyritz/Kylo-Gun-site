@@ -69,13 +69,13 @@ p { color: #FFE4E1; font-style: italic; font-weight: normal;
     background-size: cover;
 }
 #portpic {
-	background-image: url("bibee/downtown.jpg"); 
+	background-image: url("downtown.jpg"); 
 	background-repeat: no-repeat;     
 	background-position: center center;
     background-size: cover;
 }
 #vispic {
-	background-image: url("pnd/guy.jpeg"); 
+	background-image: url("guy.jpeg"); 
 	background-repeat: no-repeat;     
 	background-position: center center;
     background-size: cover;
