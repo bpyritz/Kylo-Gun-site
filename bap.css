@@ -117,20 +117,15 @@ footer {
 }
 
 @media (min-width: 600px) {
-	nav li { display: inline-block; 
-		width: 7em; 
-		padding: 0.5em; 
-		border: none; } 
-	nav ul { text-align: center; } 
-	main { float: left; 
- 		width: 55%; } 
-	aside { margin-left: 55%; } 
-	footer { clear: both; }
+	nav ul { display: flex; flex-direction: row; flex-flow: row nowrap; 
+		justify-content: space-between; padding-right: 22px; padding-left: 10px;}
+	nav li { border-bottom: none; }
+	section { margin-left: 2em; margin-right: 2em; flex: 1; }
+	.flow { display: flex; flex-direction: row; }
 	}
-
+	
 @media (min-width: 1024px) {
 	#wrapper { margin: auto; width: 80%; border-width: 1px; border-color: #002171; 
 	}
 	nav { text-align: left; padding-left:1em; }
-		
-			}
+	}
