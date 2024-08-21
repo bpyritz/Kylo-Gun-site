@@ -9,7 +9,7 @@ header a:visited { color: #FFE4E1; text-decoration:none;
 header a:hover { color: #E9967A; text-decoration:none; 
 }
 body { background-color: #9370DB;
-	background: conic-gradient(#9370DB,#FFEFD5);
+	background: linear-gradient(#9370DB80,#FFEFD580);
 	color: #000000; font-family: Georgia, Times New Roman, serif; 
 }
 #wrapper { 
@@ -42,7 +42,7 @@ nav a:visited { color: #FFE4E1;text-decoration: none;
 nav a:hover { color: #9370DB;text-decoration: none;
 }
 main { background-color: #9370DB80; 
-	background: linear-gradient(#9370DB80,#FFEFD580);
+	background: linear-gradient(#9370DB80,#000000);
 	padding-left: 30px; min-width: 790px; padding-right: 30px;
 }
 h2 { color:#FFE4E1;font-family: Georgia, Times New Roman, serif; 
@@ -127,5 +127,10 @@ footer {
 	#wrapper { margin: auto; width: 80%; border-width: 1px; border-color: #002171; 
 	}
 	nav { text-align: left; padding-left:1em; }
-		
-			}
+}
+@media (max-width: 600px) {
+	#gallery2 {display: flex; flex-direction: column; flex-flow: column wrap; 
+			justify-content: center; }
+	#page2 {text-align: left;}
+	h3 {font-size: 100%; margin-right: 300px; margin-left: 0px;}	
+}
